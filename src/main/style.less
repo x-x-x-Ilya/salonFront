@@ -1,0 +1,76 @@
+@import url("../styles/styles.less");
+@import (reference) '../styles/default.less';
+@import (reference) '../styles/bg.less';
+
+.main {
+*{
+    &:extend(.default);  
+}
+
+.bg {
+    &:extend(.bg);  
+    img{
+        width:  100%;
+        height: 100%;
+        }
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    padding-right: 22%;
+    font-size: @smallFont;
+    a{
+        background-color: @bg;
+        border-radius: 50px;
+        padding: 1%;
+        color: black;
+        opacity: .7;
+    }
+}
+
+.topic{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: @bigFont;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: @bg;
+    opacity: .7;
+    padding: 1.5%;
+    font-size: @smallFont;
+    img{
+        opacity: 100;
+        width: 10vw;
+        margin-right: 40%;
+        height: auto;
+    }
+    a{
+        color: black;
+    }
+    .salon{
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+        display: flex;
+        align-items:inherit;
+    }
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-size: @smallFont;
+    right: 0;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    a{
+        color: black;
+    }
+}
+}

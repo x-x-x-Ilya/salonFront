@@ -1,0 +1,532 @@
+.about .bg .bg__img {
+  width: 100%;
+  height: 100%;
+}
+.about .header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.about .header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.about .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.about .article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 3%;
+  font-size: 1.8vw;
+  min-height: 200px;
+}
+.comment .bg img {
+  width: 100%;
+  height: 100%;
+}
+.comment .header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.comment .header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.comment .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.comment article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 2%;
+  font-size: 1.8vw;
+}
+.comment article span {
+  margin-bottom: 2%;
+}
+.comment article textarea {
+  outline: none;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 260px;
+  height: 150px;
+  min-width: 100px;
+  min-height: 100px;
+}
+.comment article a {
+  background-color: palevioletred;
+  color: black;
+  padding: 1%;
+  border-radius: 50px;
+  margin-bottom: 1%;
+}
+.comment ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  text-align: center;
+  opacity: 1;
+  /* Firefox */
+}
+.main .bg img {
+  width: 100%;
+  height: 100%;
+}
+.main header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%;
+  padding-right: 22%;
+  font-size: 1.8vw;
+}
+.main header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.main .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.main article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 1.5%;
+  font-size: 1.8vw;
+}
+.main article img {
+  opacity: 100;
+  width: 10vw;
+  margin-right: 40%;
+  height: auto;
+}
+.main article a {
+  color: black;
+}
+.main article .salon {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  display: flex;
+  align-items: inherit;
+}
+.main footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.8vw;
+  right: 0;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+.main footer a {
+  color: black;
+}
+.master .bg img {
+  width: 100%;
+  height: 100%;
+}
+.master header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.master header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.master .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.master .article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 2%;
+  font-size: 1.8vw;
+}
+.master .article .article__a {
+  background-color: palevioletred;
+  border-radius: 50px;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  margin-bottom: 1%;
+}
+.master .article .cards {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.master .article .cards img {
+  width: 11vw;
+  height: auto;
+}
+.master .article .cards .cards__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.master .article .cards .cards__item .cards__item__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.master .article .cards .cards__item a {
+  background-color: palevioletred;
+  border-radius: 50px;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  margin-bottom: 1%;
+}
+.register .bg img {
+  width: 100%;
+  height: 100%;
+}
+.register header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.register header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.register .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.register article {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 2%;
+  font-size: 1.8vw;
+}
+.register article a {
+  background-color: palevioletred;
+  border-radius: 10px;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  margin-bottom: 1%;
+}
+.register article .top {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-evenly;
+}
+.register article .top div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.register article hr {
+  margin-top: 2%;
+  align-content: center;
+  width: 95%;
+  background-color: black;
+  border: 0;
+  height: 1px;
+  margin-bottom: 2%;
+}
+.register article .main {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+.register article .main span {
+  background-color: gray;
+  padding: 1%;
+  border-radius: 40px;
+}
+.register article .bottom {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+}
+.register article .bottom img {
+  width: 7vw;
+  height: auto;
+}
+.register article .bottom div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registration .bg img {
+  width: 100%;
+  height: 100%;
+}
+.registration header {
+  display: flex;
+  padding: 1%;
+  padding-left: 22%;
+  font-size: 1.8vw;
+}
+.registration header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.registration .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.registration article {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 2%;
+  font-size: 1.8vw;
+}
+.registration article span {
+  margin-bottom: 0.5%;
+}
+.registration article input {
+  height: 30px;
+  outline: none;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: gray;
+  border-radius: 50px;
+  text-align: center;
+}
+.registration article a {
+  margin-top: 1.5%;
+  background-color: palevioletred;
+  color: black;
+  padding: 1%;
+  border-radius: 50px;
+}
+.registration ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  text-align: center;
+  opacity: 1;
+  /* Firefox */
+}
+.salon .bg img {
+  width: 100%;
+  height: 100%;
+}
+.salon header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.salon header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.salon .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.salon article {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: pink;
+  opacity: 0.7;
+  padding: 2%;
+  font-size: 1.8vw;
+}
+.salon article .left-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.salon article .left-side img {
+  width: 14vw;
+  height: auto;
+  margin-bottom: 5%;
+}
+.salon article .left-side span {
+  margin-bottom: 6%;
+}
+.salon article .right-side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.salon article .right-side .top {
+  display: flex;
+  flex-direction: column;
+}
+.salon article .right-side .top a {
+  text-align: center;
+  background-color: palevioletred;
+  border-radius: 20px;
+  padding: 2%;
+  padding-right: 12%;
+  padding-left: 12%;
+  margin-bottom: 20%;
+  color: black;
+}
+.salon footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.8vw;
+  right: 0;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+.salon footer a {
+  color: black;
+}
+.services .bg img {
+  width: 100%;
+  height: 100%;
+}
+.services header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  font-size: 1.8vw;
+}
+.services header a {
+  background-color: pink;
+  border-radius: 50px;
+  padding: 1%;
+  color: black;
+  opacity: 0.7;
+}
+.services .topic {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 4vw;
+}
+.services article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: pink;
+  opacity: 0.7;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: auto;
+  font-size: 1.8vw;
+}
+.services article .about {
+  background-color: palevioletred;
+  border-radius: 10px;
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: black;
+  margin-bottom: 1%;
+}
+.services article div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 45%;
+  padding: 1%;
+  justify-content: space-around;
+  background-color: gray;
+  margin-bottom: 1%;
+  border-radius: 30px;
+}
+.bg,
+.about .bg,
+.comment .bg,
+.main .bg,
+.master .bg,
+.register .bg,
+.registration .bg,
+.salon .bg,
+.services .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.default,
+.about *,
+.comment *,
+.main *,
+.master *,
+.register *,
+.registration *,
+.salon *,
+.services * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  width: relative;
+}

@@ -1,0 +1,108 @@
+@import url("../styles/styles.less");
+@import (reference) "../styles/default.less";
+@import (reference) "../styles/bg.less";
+
+.register{
+
+*{
+    &:extend(.default);  
+}
+
+.bg {
+    &:extend(.bg);  
+    img{
+    width:  100%;
+    height: 100%;
+    }
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    font-size: @smallFont;
+    a{
+        background-color: @bg;
+        border-radius: 50px;
+        padding: 1%;
+        color: black;
+        opacity: .7;
+    }
+}
+
+.topic{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: @bigFont;
+}
+
+article{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: @bg;
+    opacity: .7;
+    padding: 2%;
+    font-size: @smallFont;
+    a{
+        background-color: @bg2;
+        border-radius: 10px;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: black;
+        margin-bottom: 1%;
+    }
+    .top{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        justify-content: space-evenly;
+        div{    
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    hr{
+        margin-top: 2%;
+        align-content:center;
+        width:95%;
+        background-color: black;
+        border: 0;
+        height: 1px;
+        margin-bottom: 2%;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-around;
+        span{
+            background-color: gray;
+            padding: 1%;
+            border-radius: 40px;
+        }
+        margin-bottom: 2%;
+ 
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-around;
+        img{
+            width: 7vw;
+            height: auto;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+
+}
+}
